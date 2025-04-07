@@ -5,11 +5,8 @@ function handleInput() {
         'mypasswordInput'
     ).value;
     // Store in sessionStorage
-    sessionStorage.setItem(
-        'userLoginInput',
-        inputLoginText
-    );
-    sessionStorage.setItem(
+    localStorage.setItem('userLoginInput', inputLoginText);
+    localStorage.setItem(
         'userPasswordInput',
         inputPasswordText
     );
